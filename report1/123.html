@@ -189,9 +189,9 @@ function showOutput(id, name) {
  
 <div class='heading'>
 <h1>第一个报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-12-09 10:25:17</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.189627</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-12-09 15:39:43</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.324273</p>
+<p class='attribute'><strong>Status:</strong> Pass 2</p>
 
 <p class='description'></p>
 </div>
@@ -254,39 +254,31 @@ pt1.1:
     </td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>testCase.userTest02.userAddTest02</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>testUserAdd2</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testUserAdd2</div></td>
     <td colspan='5' align='center'>
  
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
  
-    <div id='div_ft2.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.1: Traceback (most recent call last):
-  File "C:\Users\CYGR-0101-01-0042\PycharmProjects\testcase01\testCase\userTest02.py", line 42, in tearDown
-    data = [self.userID]
-AttributeError: 'userAddTest02' object has no attribute 'userID'
-Traceback (most recent call last):
-  File "C:\Users\CYGR-0101-01-0042\PycharmProjects\testcase01\testCase\userTest02.py", line 42, in tearDown
-    data = [self.userID]
-AttributeError: 'userAddTest02' object has no attribute 'userID'
-
+pt2.1: 
 
         </pre>
     </div>
@@ -298,9 +290,9 @@ AttributeError: 'userAddTest02' object has no attribute 'userID'
 <tr id='total_row'>
     <td>Total</td>
     <td>2</td>
-    <td>1</td>
+    <td>2</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td> </td>
 </tr>
 </table>
