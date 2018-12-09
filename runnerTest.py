@@ -6,7 +6,7 @@ from testCase import userTest02
 if __name__ == '__main__':
     #这个是我需要修改的
     # 创建一个测试套件
-    #1233
+    #1233122
     suite = unittest.TestSuite()
     # 将测试用例加载到测试套件中
     suite.addTest(userTest02.userAddTest('testUserAdd1'))
