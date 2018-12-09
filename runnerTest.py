@@ -4,6 +4,7 @@ import HTMLTestRunner
 from testCase import userTest02
 
 if __name__ == '__main__':
+    #这个是我需要修改的
     # 创建一个测试套件
     suite = unittest.TestSuite()
     # 将测试用例加载到测试套件中
